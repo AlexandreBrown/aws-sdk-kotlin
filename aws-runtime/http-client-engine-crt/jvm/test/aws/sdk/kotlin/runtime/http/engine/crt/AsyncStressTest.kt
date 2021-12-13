@@ -71,7 +71,7 @@ class AsyncStressTest : TestWithLocalServer() {
         }
     }
 
-    @IgnoreWindows("https://github.com/awslabs/aws-sdk-kotlin/issues/413")
+    // @IgnoreWindows("https://github.com/awslabs/aws-sdk-kotlin/issues/413")
     @OptIn(ExperimentalTime::class)
     @Test
     fun testStreamNotConsumed() = runSuspendTest {
