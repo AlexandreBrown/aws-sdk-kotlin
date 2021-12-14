@@ -16,6 +16,6 @@ dependencies {
     api(project(":aws-runtime:aws-signing"))
     api(project(":aws-runtime:aws-types"))
     api("aws.smithy.kotlin:runtime-core:0.7.5-SNAPSHOT")
-    testImplementation("org.jetbrains.kotlin:kotlin-test:1.5.31")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.6.10")
     testImplementation(project(":aws-runtime:testing"))
 }
