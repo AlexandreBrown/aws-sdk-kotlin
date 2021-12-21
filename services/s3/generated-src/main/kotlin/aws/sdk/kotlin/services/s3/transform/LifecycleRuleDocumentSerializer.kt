@@ -2,7 +2,14 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.AbortIncompleteMultipartUpload
+import aws.sdk.kotlin.services.s3.model.ExpirationStatus
+import aws.sdk.kotlin.services.s3.model.LifecycleExpiration
 import aws.sdk.kotlin.services.s3.model.LifecycleRule
+import aws.sdk.kotlin.services.s3.model.LifecycleRuleFilter
+import aws.sdk.kotlin.services.s3.model.NoncurrentVersionExpiration
+import aws.sdk.kotlin.services.s3.model.NoncurrentVersionTransition
+import aws.sdk.kotlin.services.s3.model.Transition
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

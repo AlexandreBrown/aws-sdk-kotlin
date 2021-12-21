@@ -3,11 +3,21 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.BootModeType
+import aws.sdk.kotlin.services.ec2.model.EbsInfo
+import aws.sdk.kotlin.services.ec2.model.FpgaInfo
+import aws.sdk.kotlin.services.ec2.model.GpuInfo
+import aws.sdk.kotlin.services.ec2.model.InferenceAcceleratorInfo
+import aws.sdk.kotlin.services.ec2.model.InstanceStorageInfo
 import aws.sdk.kotlin.services.ec2.model.InstanceType
 import aws.sdk.kotlin.services.ec2.model.InstanceTypeHypervisor
 import aws.sdk.kotlin.services.ec2.model.InstanceTypeInfo
+import aws.sdk.kotlin.services.ec2.model.MemoryInfo
+import aws.sdk.kotlin.services.ec2.model.NetworkInfo
+import aws.sdk.kotlin.services.ec2.model.PlacementGroupInfo
+import aws.sdk.kotlin.services.ec2.model.ProcessorInfo
 import aws.sdk.kotlin.services.ec2.model.RootDeviceType
 import aws.sdk.kotlin.services.ec2.model.UsageClassType
+import aws.sdk.kotlin.services.ec2.model.VCpuInfo
 import aws.sdk.kotlin.services.ec2.model.VirtualizationType
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

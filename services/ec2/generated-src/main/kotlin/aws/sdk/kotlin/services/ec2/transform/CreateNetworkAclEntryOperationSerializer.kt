@@ -3,6 +3,9 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.CreateNetworkAclEntryRequest
+import aws.sdk.kotlin.services.ec2.model.IcmpTypeCode
+import aws.sdk.kotlin.services.ec2.model.PortRange
+import aws.sdk.kotlin.services.ec2.model.RuleAction
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

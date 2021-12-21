@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.PublicAccessBlockConfiguration
 import aws.sdk.kotlin.services.s3.model.PutPublicAccessBlockRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

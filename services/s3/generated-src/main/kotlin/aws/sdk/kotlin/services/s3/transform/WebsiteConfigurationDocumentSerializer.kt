@@ -2,6 +2,10 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.ErrorDocument
+import aws.sdk.kotlin.services.s3.model.IndexDocument
+import aws.sdk.kotlin.services.s3.model.RedirectAllRequestsTo
+import aws.sdk.kotlin.services.s3.model.RoutingRule
 import aws.sdk.kotlin.services.s3.model.WebsiteConfiguration
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

@@ -2,7 +2,11 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.ConditionCheck
+import aws.sdk.kotlin.services.dynamodb.model.Delete
+import aws.sdk.kotlin.services.dynamodb.model.Put
 import aws.sdk.kotlin.services.dynamodb.model.TransactWriteItem
+import aws.sdk.kotlin.services.dynamodb.model.Update
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

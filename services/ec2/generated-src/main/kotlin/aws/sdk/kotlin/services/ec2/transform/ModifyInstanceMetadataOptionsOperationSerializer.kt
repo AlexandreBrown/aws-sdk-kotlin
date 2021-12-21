@@ -2,6 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.HttpTokensState
+import aws.sdk.kotlin.services.ec2.model.InstanceMetadataEndpointState
+import aws.sdk.kotlin.services.ec2.model.InstanceMetadataProtocolState
 import aws.sdk.kotlin.services.ec2.model.ModifyInstanceMetadataOptionsRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

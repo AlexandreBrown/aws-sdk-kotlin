@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.CreateReplicationGroupMemberAction
+import aws.sdk.kotlin.services.dynamodb.model.DeleteReplicationGroupMemberAction
 import aws.sdk.kotlin.services.dynamodb.model.ReplicationGroupUpdate
+import aws.sdk.kotlin.services.dynamodb.model.UpdateReplicationGroupMemberAction
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

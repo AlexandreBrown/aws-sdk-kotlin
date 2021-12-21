@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.FleetLaunchTemplateSpecification
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateConfig
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateOverrides
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

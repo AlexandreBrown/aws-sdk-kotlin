@@ -7,6 +7,8 @@ import aws.sdk.kotlin.runtime.http.setAseErrorMetadata
 import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.json.RestJsonErrorDeserializer
 import aws.sdk.kotlin.services.polly.model.GetLexiconResponse
+import aws.sdk.kotlin.services.polly.model.Lexicon
+import aws.sdk.kotlin.services.polly.model.LexiconAttributes
 import aws.sdk.kotlin.services.polly.model.PollyException
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.isSuccess

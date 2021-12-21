@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ReservationValue
+import aws.sdk.kotlin.services.ec2.model.TargetConfiguration
 import aws.sdk.kotlin.services.ec2.model.TargetReservationValue
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

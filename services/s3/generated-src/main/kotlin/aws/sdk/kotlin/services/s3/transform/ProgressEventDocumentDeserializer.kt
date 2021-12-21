@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.Progress
 import aws.sdk.kotlin.services.s3.model.ProgressEvent
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

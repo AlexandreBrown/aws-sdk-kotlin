@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterfaceAssociation
 import aws.sdk.kotlin.services.ec2.model.InstancePrivateIpAddress
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

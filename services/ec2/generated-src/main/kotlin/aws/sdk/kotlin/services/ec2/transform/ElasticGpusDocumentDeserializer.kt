@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ElasticGpuHealth
 import aws.sdk.kotlin.services.ec2.model.ElasticGpuState
 import aws.sdk.kotlin.services.ec2.model.ElasticGpus
 import aws.sdk.kotlin.services.ec2.model.Tag

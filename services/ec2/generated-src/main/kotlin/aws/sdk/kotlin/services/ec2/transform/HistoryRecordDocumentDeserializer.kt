@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.EventInformation
 import aws.sdk.kotlin.services.ec2.model.EventType
 import aws.sdk.kotlin.services.ec2.model.HistoryRecord
 import aws.smithy.kotlin.runtime.serde.Deserializer

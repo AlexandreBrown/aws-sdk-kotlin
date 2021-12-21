@@ -2,6 +2,9 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.ReturnConsumedCapacity
+import aws.sdk.kotlin.services.dynamodb.model.ReturnItemCollectionMetrics
+import aws.sdk.kotlin.services.dynamodb.model.TransactWriteItem
 import aws.sdk.kotlin.services.dynamodb.model.TransactWriteItemsRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider

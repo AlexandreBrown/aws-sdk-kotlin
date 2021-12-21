@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AttributeBooleanValue
+import aws.sdk.kotlin.services.ec2.model.AttributeValue
 import aws.sdk.kotlin.services.ec2.model.ModifyNetworkInterfaceAttributeRequest
+import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceAttachmentChanges
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

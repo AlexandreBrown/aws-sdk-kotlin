@@ -2,7 +2,11 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.InstanceIpv6Address
 import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterfaceSpecification
+import aws.sdk.kotlin.services.ec2.model.Ipv4PrefixSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.Ipv6PrefixSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.PrivateIpAddressSpecification
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

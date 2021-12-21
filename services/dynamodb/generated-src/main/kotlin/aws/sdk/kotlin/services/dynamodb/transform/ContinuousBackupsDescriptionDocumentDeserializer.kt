@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.dynamodb.transform
 
 import aws.sdk.kotlin.services.dynamodb.model.ContinuousBackupsDescription
 import aws.sdk.kotlin.services.dynamodb.model.ContinuousBackupsStatus
+import aws.sdk.kotlin.services.dynamodb.model.PointInTimeRecoveryDescription
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

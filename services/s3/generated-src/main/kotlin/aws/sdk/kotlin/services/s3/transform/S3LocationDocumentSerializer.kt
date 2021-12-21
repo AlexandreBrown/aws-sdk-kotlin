@@ -2,7 +2,13 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.Encryption
+import aws.sdk.kotlin.services.s3.model.Grant
+import aws.sdk.kotlin.services.s3.model.MetadataEntry
+import aws.sdk.kotlin.services.s3.model.ObjectCannedAcl
 import aws.sdk.kotlin.services.s3.model.S3Location
+import aws.sdk.kotlin.services.s3.model.StorageClass
+import aws.sdk.kotlin.services.s3.model.Tagging
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

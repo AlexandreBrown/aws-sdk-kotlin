@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.CapacityReservationOptions
 import aws.sdk.kotlin.services.ec2.model.FleetOnDemandAllocationStrategy
 import aws.sdk.kotlin.services.ec2.model.OnDemandOptions
 import aws.smithy.kotlin.runtime.serde.Deserializer

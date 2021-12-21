@@ -2,8 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.InstanceState
 import aws.sdk.kotlin.services.ec2.model.InstanceStatus
 import aws.sdk.kotlin.services.ec2.model.InstanceStatusEvent
+import aws.sdk.kotlin.services.ec2.model.InstanceStatusSummary
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

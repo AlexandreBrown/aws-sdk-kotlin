@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.polly.transform
 
 import aws.sdk.kotlin.services.polly.model.ListSpeechSynthesisTasksRequest
+import aws.sdk.kotlin.services.polly.model.TaskStatus
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

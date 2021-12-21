@@ -3,6 +3,12 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.CreateNetworkInterfaceRequest
+import aws.sdk.kotlin.services.ec2.model.InstanceIpv6Address
+import aws.sdk.kotlin.services.ec2.model.Ipv4PrefixSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.Ipv6PrefixSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceCreationType
+import aws.sdk.kotlin.services.ec2.model.PrivateIpAddressSpecification
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider
 import aws.smithy.kotlin.runtime.http.HttpBody

@@ -2,7 +2,18 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AllocationStrategy
+import aws.sdk.kotlin.services.ec2.model.ExcessCapacityTerminationPolicy
+import aws.sdk.kotlin.services.ec2.model.FleetType
+import aws.sdk.kotlin.services.ec2.model.InstanceInterruptionBehavior
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateConfig
+import aws.sdk.kotlin.services.ec2.model.LoadBalancersConfig
+import aws.sdk.kotlin.services.ec2.model.OnDemandAllocationStrategy
+import aws.sdk.kotlin.services.ec2.model.SpotFleetLaunchSpecification
 import aws.sdk.kotlin.services.ec2.model.SpotFleetRequestConfigData
+import aws.sdk.kotlin.services.ec2.model.SpotMaintenanceStrategies
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
+import aws.sdk.kotlin.services.ec2.model.TargetCapacityUnitType
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind
@@ -17,6 +28,7 @@ import aws.smithy.kotlin.runtime.serde.formurl.FormUrlSerialName
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

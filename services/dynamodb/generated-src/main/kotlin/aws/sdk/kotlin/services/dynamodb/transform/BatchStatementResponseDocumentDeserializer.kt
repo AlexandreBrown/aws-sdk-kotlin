@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.dynamodb.transform
 
 import aws.sdk.kotlin.services.dynamodb.model.AttributeValue
+import aws.sdk.kotlin.services.dynamodb.model.BatchStatementError
 import aws.sdk.kotlin.services.dynamodb.model.BatchStatementResponse
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

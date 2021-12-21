@@ -8,6 +8,7 @@ import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.json.RestJsonErrorDeserializer
 import aws.sdk.kotlin.services.polly.model.PollyException
 import aws.sdk.kotlin.services.polly.model.StartSpeechSynthesisTaskResponse
+import aws.sdk.kotlin.services.polly.model.SynthesisTask
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.isSuccess
 import aws.smithy.kotlin.runtime.http.operation.HttpDeserialize

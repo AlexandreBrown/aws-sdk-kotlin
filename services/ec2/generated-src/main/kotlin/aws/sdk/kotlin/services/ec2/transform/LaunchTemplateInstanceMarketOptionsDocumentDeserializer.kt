@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceMarketOptions
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateSpotMarketOptions
 import aws.sdk.kotlin.services.ec2.model.MarketType
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

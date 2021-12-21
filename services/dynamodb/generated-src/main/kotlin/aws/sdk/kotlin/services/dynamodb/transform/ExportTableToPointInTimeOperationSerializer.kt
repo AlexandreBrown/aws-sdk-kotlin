@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.ExportFormat
 import aws.sdk.kotlin.services.dynamodb.model.ExportTableToPointInTimeRequest
+import aws.sdk.kotlin.services.dynamodb.model.S3SseAlgorithm
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider
 import aws.smithy.kotlin.runtime.http.HttpBody
@@ -25,6 +27,7 @@ import aws.smithy.kotlin.runtime.serde.json.JsonSerializer
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

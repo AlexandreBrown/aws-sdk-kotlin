@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.Metrics
 import aws.sdk.kotlin.services.s3.model.MetricsStatus
+import aws.sdk.kotlin.services.s3.model.ReplicationTimeValue
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

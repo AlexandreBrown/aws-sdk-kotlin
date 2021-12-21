@@ -16,6 +16,7 @@ import aws.smithy.kotlin.runtime.serde.formurl.FormUrlSerialName
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

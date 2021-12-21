@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.GlacierJobParameters
+import aws.sdk.kotlin.services.s3.model.OutputLocation
 import aws.sdk.kotlin.services.s3.model.RestoreRequest
+import aws.sdk.kotlin.services.s3.model.RestoreRequestType
+import aws.sdk.kotlin.services.s3.model.SelectParameters
+import aws.sdk.kotlin.services.s3.model.Tier
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

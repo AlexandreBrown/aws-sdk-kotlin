@@ -6,6 +6,7 @@ import aws.sdk.kotlin.runtime.UnknownServiceErrorException
 import aws.sdk.kotlin.runtime.http.setAseErrorMetadata
 import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.xml.parseRestXmlErrorResponse
+import aws.sdk.kotlin.services.sts.model.Credentials
 import aws.sdk.kotlin.services.sts.model.GetSessionTokenResponse
 import aws.sdk.kotlin.services.sts.model.StsException
 import aws.smithy.kotlin.runtime.client.ExecutionContext

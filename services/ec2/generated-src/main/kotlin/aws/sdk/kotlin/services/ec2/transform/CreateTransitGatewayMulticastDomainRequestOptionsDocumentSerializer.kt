@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AutoAcceptSharedAssociationsValue
 import aws.sdk.kotlin.services.ec2.model.CreateTransitGatewayMulticastDomainRequestOptions
+import aws.sdk.kotlin.services.ec2.model.Igmpv2SupportValue
+import aws.sdk.kotlin.services.ec2.model.StaticSourcesSupportValue
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

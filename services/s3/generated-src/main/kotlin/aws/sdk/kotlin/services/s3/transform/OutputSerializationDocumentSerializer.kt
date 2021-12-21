@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.CsvOutput
+import aws.sdk.kotlin.services.s3.model.JsonOutput
 import aws.sdk.kotlin.services.s3.model.OutputSerialization
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

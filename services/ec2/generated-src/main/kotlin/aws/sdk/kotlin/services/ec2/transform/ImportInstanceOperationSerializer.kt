@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.DiskImage
+import aws.sdk.kotlin.services.ec2.model.ImportInstanceLaunchSpecification
 import aws.sdk.kotlin.services.ec2.model.ImportInstanceRequest
+import aws.sdk.kotlin.services.ec2.model.PlatformValues
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

@@ -5,6 +5,9 @@ package aws.sdk.kotlin.services.dynamodb.transform
 import aws.sdk.kotlin.services.dynamodb.model.GlobalSecondaryIndexInfo
 import aws.sdk.kotlin.services.dynamodb.model.LocalSecondaryIndexInfo
 import aws.sdk.kotlin.services.dynamodb.model.SourceTableFeatureDetails
+import aws.sdk.kotlin.services.dynamodb.model.SseDescription
+import aws.sdk.kotlin.services.dynamodb.model.StreamSpecification
+import aws.sdk.kotlin.services.dynamodb.model.TimeToLiveDescription
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

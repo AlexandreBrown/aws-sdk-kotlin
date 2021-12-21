@@ -5,6 +5,7 @@ package aws.sdk.kotlin.services.ec2.transform
 import aws.sdk.kotlin.services.ec2.model.DescribeFleetsInstances
 import aws.sdk.kotlin.services.ec2.model.InstanceLifecycle
 import aws.sdk.kotlin.services.ec2.model.InstanceType
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateAndOverridesResponse
 import aws.sdk.kotlin.services.ec2.model.PlatformValues
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

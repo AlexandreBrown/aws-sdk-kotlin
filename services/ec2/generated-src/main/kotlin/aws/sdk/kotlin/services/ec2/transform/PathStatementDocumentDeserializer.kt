@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.PacketHeaderStatement
 import aws.sdk.kotlin.services.ec2.model.PathStatement
+import aws.sdk.kotlin.services.ec2.model.ResourceStatement
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

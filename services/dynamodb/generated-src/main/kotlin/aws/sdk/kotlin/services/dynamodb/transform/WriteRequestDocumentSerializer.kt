@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.DeleteRequest
+import aws.sdk.kotlin.services.dynamodb.model.PutRequest
 import aws.sdk.kotlin.services.dynamodb.model.WriteRequest
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

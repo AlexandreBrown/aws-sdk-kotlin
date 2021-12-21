@@ -8,6 +8,8 @@ import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.xml.parseEc2QueryErrorResponse
 import aws.sdk.kotlin.services.ec2.model.CreateNetworkInsightsAccessScopeResponse
 import aws.sdk.kotlin.services.ec2.model.Ec2Exception
+import aws.sdk.kotlin.services.ec2.model.NetworkInsightsAccessScope
+import aws.sdk.kotlin.services.ec2.model.NetworkInsightsAccessScopeContent
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.isSuccess
 import aws.smithy.kotlin.runtime.http.operation.HttpDeserialize

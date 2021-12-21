@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.InstanceEventWindowAssociationRequest
+import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

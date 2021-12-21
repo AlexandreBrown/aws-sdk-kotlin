@@ -5,8 +5,10 @@ package aws.sdk.kotlin.services.ec2.transform
 import aws.sdk.kotlin.services.ec2.model.AllocationState
 import aws.sdk.kotlin.services.ec2.model.AllowsMultipleInstanceTypes
 import aws.sdk.kotlin.services.ec2.model.AutoPlacement
+import aws.sdk.kotlin.services.ec2.model.AvailableCapacity
 import aws.sdk.kotlin.services.ec2.model.Host
 import aws.sdk.kotlin.services.ec2.model.HostInstance
+import aws.sdk.kotlin.services.ec2.model.HostProperties
 import aws.sdk.kotlin.services.ec2.model.HostRecovery
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer

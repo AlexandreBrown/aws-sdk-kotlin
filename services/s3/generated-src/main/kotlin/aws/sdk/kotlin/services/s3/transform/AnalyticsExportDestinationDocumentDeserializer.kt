@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.AnalyticsExportDestination
+import aws.sdk.kotlin.services.s3.model.AnalyticsS3BucketDestination
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

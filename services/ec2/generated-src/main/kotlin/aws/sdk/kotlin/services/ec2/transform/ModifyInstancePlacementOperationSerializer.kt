@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.Affinity
+import aws.sdk.kotlin.services.ec2.model.HostTenancy
 import aws.sdk.kotlin.services.ec2.model.ModifyInstancePlacementRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

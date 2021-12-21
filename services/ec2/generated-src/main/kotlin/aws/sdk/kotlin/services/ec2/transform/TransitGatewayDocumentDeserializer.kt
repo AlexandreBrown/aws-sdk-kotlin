@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.TransitGateway
+import aws.sdk.kotlin.services.ec2.model.TransitGatewayOptions
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayState
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

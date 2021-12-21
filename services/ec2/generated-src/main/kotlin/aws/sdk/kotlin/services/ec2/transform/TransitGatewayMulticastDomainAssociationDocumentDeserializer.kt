@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.SubnetAssociation
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayAttachmentResourceType
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayMulticastDomainAssociation
 import aws.smithy.kotlin.runtime.serde.Deserializer

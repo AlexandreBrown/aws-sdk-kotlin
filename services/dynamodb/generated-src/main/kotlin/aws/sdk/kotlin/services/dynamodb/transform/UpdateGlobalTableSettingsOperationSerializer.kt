@@ -2,6 +2,10 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.AutoScalingSettingsUpdate
+import aws.sdk.kotlin.services.dynamodb.model.BillingMode
+import aws.sdk.kotlin.services.dynamodb.model.GlobalTableGlobalSecondaryIndexSettingsUpdate
+import aws.sdk.kotlin.services.dynamodb.model.ReplicaSettingsUpdate
 import aws.sdk.kotlin.services.dynamodb.model.UpdateGlobalTableSettingsRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.sts.transform
 
 import aws.sdk.kotlin.services.sts.model.AssumeRoleWithWebIdentityRequest
+import aws.sdk.kotlin.services.sts.model.PolicyDescriptorType
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AutoAcceptSharedAttachmentsValue
+import aws.sdk.kotlin.services.ec2.model.DefaultRouteTableAssociationValue
+import aws.sdk.kotlin.services.ec2.model.DefaultRouteTablePropagationValue
+import aws.sdk.kotlin.services.ec2.model.DnsSupportValue
 import aws.sdk.kotlin.services.ec2.model.ModifyTransitGatewayOptions
+import aws.sdk.kotlin.services.ec2.model.VpnEcmpSupportValue
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

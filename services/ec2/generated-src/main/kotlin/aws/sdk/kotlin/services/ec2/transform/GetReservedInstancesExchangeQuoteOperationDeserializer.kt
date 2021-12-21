@@ -8,6 +8,7 @@ import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.xml.parseEc2QueryErrorResponse
 import aws.sdk.kotlin.services.ec2.model.Ec2Exception
 import aws.sdk.kotlin.services.ec2.model.GetReservedInstancesExchangeQuoteResponse
+import aws.sdk.kotlin.services.ec2.model.ReservationValue
 import aws.sdk.kotlin.services.ec2.model.ReservedInstanceReservationValue
 import aws.sdk.kotlin.services.ec2.model.TargetReservationValue
 import aws.smithy.kotlin.runtime.client.ExecutionContext

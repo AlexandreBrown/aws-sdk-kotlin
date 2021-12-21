@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.InstanceRequirements
 import aws.sdk.kotlin.services.ec2.model.InstanceType
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateOverrides
 import aws.smithy.kotlin.runtime.serde.Deserializer

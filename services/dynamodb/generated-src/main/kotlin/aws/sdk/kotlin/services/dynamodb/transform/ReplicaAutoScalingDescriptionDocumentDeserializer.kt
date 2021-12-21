@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.AutoScalingSettingsDescription
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaAutoScalingDescription
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaGlobalSecondaryIndexAutoScalingDescription
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaStatus

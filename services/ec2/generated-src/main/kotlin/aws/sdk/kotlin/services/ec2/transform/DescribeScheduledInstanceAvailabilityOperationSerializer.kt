@@ -3,6 +3,9 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.DescribeScheduledInstanceAvailabilityRequest
+import aws.sdk.kotlin.services.ec2.model.Filter
+import aws.sdk.kotlin.services.ec2.model.ScheduledInstanceRecurrenceRequest
+import aws.sdk.kotlin.services.ec2.model.SlotDateTimeRangeRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

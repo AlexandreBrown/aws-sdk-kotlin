@@ -2,7 +2,11 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.CertificateAuthenticationRequest
 import aws.sdk.kotlin.services.ec2.model.ClientVpnAuthenticationRequest
+import aws.sdk.kotlin.services.ec2.model.ClientVpnAuthenticationType
+import aws.sdk.kotlin.services.ec2.model.DirectoryServiceAuthenticationRequest
+import aws.sdk.kotlin.services.ec2.model.FederatedAuthenticationRequest
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

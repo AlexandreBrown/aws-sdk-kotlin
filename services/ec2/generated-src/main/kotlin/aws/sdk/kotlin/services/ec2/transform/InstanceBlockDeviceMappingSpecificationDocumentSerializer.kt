@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.EbsInstanceBlockDeviceSpecification
 import aws.sdk.kotlin.services.ec2.model.InstanceBlockDeviceMappingSpecification
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

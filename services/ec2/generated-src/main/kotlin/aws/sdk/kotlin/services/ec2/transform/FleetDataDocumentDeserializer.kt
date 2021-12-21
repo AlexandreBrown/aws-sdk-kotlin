@@ -10,7 +10,10 @@ import aws.sdk.kotlin.services.ec2.model.FleetExcessCapacityTerminationPolicy
 import aws.sdk.kotlin.services.ec2.model.FleetLaunchTemplateConfig
 import aws.sdk.kotlin.services.ec2.model.FleetStateCode
 import aws.sdk.kotlin.services.ec2.model.FleetType
+import aws.sdk.kotlin.services.ec2.model.OnDemandOptions
+import aws.sdk.kotlin.services.ec2.model.SpotOptions
 import aws.sdk.kotlin.services.ec2.model.Tag
+import aws.sdk.kotlin.services.ec2.model.TargetCapacitySpecification
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

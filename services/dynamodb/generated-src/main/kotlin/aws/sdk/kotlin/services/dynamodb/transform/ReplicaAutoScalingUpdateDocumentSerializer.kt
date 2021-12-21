@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.AutoScalingSettingsUpdate
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaAutoScalingUpdate
+import aws.sdk.kotlin.services.dynamodb.model.ReplicaGlobalSecondaryIndexAutoScalingUpdate
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.CsvOutput
+import aws.sdk.kotlin.services.s3.model.QuoteFields
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

@@ -11,6 +11,7 @@ import aws.sdk.kotlin.services.s3.model.GetObjectTorrentResponse
 import aws.sdk.kotlin.services.s3.model.RequestCharged
 import aws.sdk.kotlin.services.s3.model.S3Exception
 import aws.smithy.kotlin.runtime.client.ExecutionContext
+import aws.smithy.kotlin.runtime.content.ByteStream
 import aws.smithy.kotlin.runtime.http.HttpStatusCode
 import aws.smithy.kotlin.runtime.http.isSuccess
 import aws.smithy.kotlin.runtime.http.operation.HttpDeserialize

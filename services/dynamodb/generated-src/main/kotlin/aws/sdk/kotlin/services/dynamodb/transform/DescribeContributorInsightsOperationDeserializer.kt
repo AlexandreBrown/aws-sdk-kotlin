@@ -9,6 +9,7 @@ import aws.sdk.kotlin.runtime.protocol.json.RestJsonErrorDeserializer
 import aws.sdk.kotlin.services.dynamodb.model.ContributorInsightsStatus
 import aws.sdk.kotlin.services.dynamodb.model.DescribeContributorInsightsResponse
 import aws.sdk.kotlin.services.dynamodb.model.DynamoDbException
+import aws.sdk.kotlin.services.dynamodb.model.FailureException
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.isSuccess
 import aws.smithy.kotlin.runtime.http.operation.HttpDeserialize

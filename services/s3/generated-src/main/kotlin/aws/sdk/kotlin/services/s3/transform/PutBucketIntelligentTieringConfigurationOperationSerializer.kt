@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.IntelligentTieringConfiguration
 import aws.sdk.kotlin.services.s3.model.PutBucketIntelligentTieringConfigurationRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

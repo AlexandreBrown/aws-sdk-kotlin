@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AccessScopePathRequest
 import aws.sdk.kotlin.services.ec2.model.CreateNetworkInsightsAccessScopeRequest
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider
 import aws.smithy.kotlin.runtime.http.HttpBody

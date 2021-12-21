@@ -3,6 +3,10 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.ModifyTrafficMirrorFilterRuleRequest
+import aws.sdk.kotlin.services.ec2.model.TrafficDirection
+import aws.sdk.kotlin.services.ec2.model.TrafficMirrorFilterRuleField
+import aws.sdk.kotlin.services.ec2.model.TrafficMirrorPortRangeRequest
+import aws.sdk.kotlin.services.ec2.model.TrafficMirrorRuleAction
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

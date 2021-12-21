@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.PeeringAttachmentStatus
+import aws.sdk.kotlin.services.ec2.model.PeeringTgwInfo
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayAttachmentState
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayPeeringAttachment

@@ -2,6 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ArchitectureValues
+import aws.sdk.kotlin.services.ec2.model.BlockDeviceMapping
+import aws.sdk.kotlin.services.ec2.model.BootModeValues
 import aws.sdk.kotlin.services.ec2.model.RegisterImageRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

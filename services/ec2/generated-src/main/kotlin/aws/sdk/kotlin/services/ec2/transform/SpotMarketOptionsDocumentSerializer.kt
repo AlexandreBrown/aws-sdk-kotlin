@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.InstanceInterruptionBehavior
+import aws.sdk.kotlin.services.ec2.model.SpotInstanceType
 import aws.sdk.kotlin.services.ec2.model.SpotMarketOptions
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
@@ -16,6 +18,7 @@ import aws.smithy.kotlin.runtime.serde.formurl.FormUrlSerialName
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

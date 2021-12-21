@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.PurchaseRequest
 import aws.sdk.kotlin.services.ec2.model.PurchaseScheduledInstancesRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider

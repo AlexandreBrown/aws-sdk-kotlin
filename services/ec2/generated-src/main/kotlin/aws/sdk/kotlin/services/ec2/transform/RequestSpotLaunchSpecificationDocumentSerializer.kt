@@ -2,7 +2,13 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.BlockDeviceMapping
+import aws.sdk.kotlin.services.ec2.model.IamInstanceProfileSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterfaceSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceType
 import aws.sdk.kotlin.services.ec2.model.RequestSpotLaunchSpecification
+import aws.sdk.kotlin.services.ec2.model.RunInstancesMonitoringEnabled
+import aws.sdk.kotlin.services.ec2.model.SpotPlacement
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

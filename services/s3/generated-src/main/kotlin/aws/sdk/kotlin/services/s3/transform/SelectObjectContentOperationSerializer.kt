@@ -2,6 +2,11 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.ExpressionType
+import aws.sdk.kotlin.services.s3.model.InputSerialization
+import aws.sdk.kotlin.services.s3.model.OutputSerialization
+import aws.sdk.kotlin.services.s3.model.RequestProgress
+import aws.sdk.kotlin.services.s3.model.ScanRange
 import aws.sdk.kotlin.services.s3.model.SelectObjectContentRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

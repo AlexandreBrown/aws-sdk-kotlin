@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ExcessCapacityTerminationPolicy
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateConfig
 import aws.sdk.kotlin.services.ec2.model.ModifySpotFleetRequestRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

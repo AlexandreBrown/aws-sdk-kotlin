@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.ProvisionedThroughputOverride
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaGlobalSecondaryIndexDescription
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

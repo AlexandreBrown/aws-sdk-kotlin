@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.PrivateDnsNameConfiguration
 import aws.sdk.kotlin.services.ec2.model.ServiceConfiguration
 import aws.sdk.kotlin.services.ec2.model.ServiceState
 import aws.sdk.kotlin.services.ec2.model.ServiceTypeDetail

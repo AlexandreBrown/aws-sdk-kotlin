@@ -2,6 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.FleetSpotMaintenanceStrategiesRequest
+import aws.sdk.kotlin.services.ec2.model.SpotAllocationStrategy
+import aws.sdk.kotlin.services.ec2.model.SpotInstanceInterruptionBehavior
 import aws.sdk.kotlin.services.ec2.model.SpotOptionsRequest
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

@@ -3,6 +3,9 @@
 package aws.sdk.kotlin.services.dynamodb.transform
 
 import aws.sdk.kotlin.services.dynamodb.model.BatchWriteItemRequest
+import aws.sdk.kotlin.services.dynamodb.model.ReturnConsumedCapacity
+import aws.sdk.kotlin.services.dynamodb.model.ReturnItemCollectionMetrics
+import aws.sdk.kotlin.services.dynamodb.model.WriteRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

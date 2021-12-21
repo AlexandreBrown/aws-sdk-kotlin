@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.ContinuationEvent
+import aws.sdk.kotlin.services.s3.model.EndEvent
+import aws.sdk.kotlin.services.s3.model.ProgressEvent
+import aws.sdk.kotlin.services.s3.model.RecordsEvent
 import aws.sdk.kotlin.services.s3.model.SelectObjectContentEventStream
+import aws.sdk.kotlin.services.s3.model.StatsEvent
 import aws.smithy.kotlin.runtime.serde.DeserializationException
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

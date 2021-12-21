@@ -2,11 +2,18 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.ArchivalSummary
 import aws.sdk.kotlin.services.dynamodb.model.AttributeDefinition
+import aws.sdk.kotlin.services.dynamodb.model.BillingModeSummary
 import aws.sdk.kotlin.services.dynamodb.model.GlobalSecondaryIndexDescription
 import aws.sdk.kotlin.services.dynamodb.model.KeySchemaElement
 import aws.sdk.kotlin.services.dynamodb.model.LocalSecondaryIndexDescription
+import aws.sdk.kotlin.services.dynamodb.model.ProvisionedThroughputDescription
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaDescription
+import aws.sdk.kotlin.services.dynamodb.model.RestoreSummary
+import aws.sdk.kotlin.services.dynamodb.model.SseDescription
+import aws.sdk.kotlin.services.dynamodb.model.StreamSpecification
+import aws.sdk.kotlin.services.dynamodb.model.TableClassSummary
 import aws.sdk.kotlin.services.dynamodb.model.TableDescription
 import aws.sdk.kotlin.services.dynamodb.model.TableStatus
 import aws.smithy.kotlin.runtime.serde.Deserializer

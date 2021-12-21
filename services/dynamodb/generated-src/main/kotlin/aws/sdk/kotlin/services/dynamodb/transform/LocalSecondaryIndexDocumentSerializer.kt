@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.KeySchemaElement
 import aws.sdk.kotlin.services.dynamodb.model.LocalSecondaryIndex
+import aws.sdk.kotlin.services.dynamodb.model.Projection
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.Protocol
 import aws.sdk.kotlin.services.s3.model.RedirectAllRequestsTo
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ArchitectureValues
 import aws.sdk.kotlin.services.ec2.model.ImportInstanceLaunchSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceType
+import aws.sdk.kotlin.services.ec2.model.Placement
+import aws.sdk.kotlin.services.ec2.model.ShutdownBehavior
+import aws.sdk.kotlin.services.ec2.model.UserData
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

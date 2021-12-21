@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.DiskImage
+import aws.sdk.kotlin.services.ec2.model.DiskImageDetail
+import aws.sdk.kotlin.services.ec2.model.VolumeDetail
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

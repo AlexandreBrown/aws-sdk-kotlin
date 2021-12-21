@@ -2,6 +2,11 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AttributeBooleanValue
+import aws.sdk.kotlin.services.ec2.model.AttributeValue
+import aws.sdk.kotlin.services.ec2.model.BlobAttributeValue
+import aws.sdk.kotlin.services.ec2.model.InstanceAttributeName
+import aws.sdk.kotlin.services.ec2.model.InstanceBlockDeviceMappingSpecification
 import aws.sdk.kotlin.services.ec2.model.ModifyInstanceAttributeRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

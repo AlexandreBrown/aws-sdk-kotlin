@@ -2,7 +2,13 @@
 
 package aws.sdk.kotlin.services.polly.transform
 
+import aws.sdk.kotlin.services.polly.model.Engine
+import aws.sdk.kotlin.services.polly.model.LanguageCode
+import aws.sdk.kotlin.services.polly.model.OutputFormat
+import aws.sdk.kotlin.services.polly.model.SpeechMarkType
 import aws.sdk.kotlin.services.polly.model.SynthesizeSpeechRequest
+import aws.sdk.kotlin.services.polly.model.TextType
+import aws.sdk.kotlin.services.polly.model.VoiceId
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

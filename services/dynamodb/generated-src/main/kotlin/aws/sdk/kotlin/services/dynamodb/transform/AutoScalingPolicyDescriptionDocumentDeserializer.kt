@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.dynamodb.transform
 
 import aws.sdk.kotlin.services.dynamodb.model.AutoScalingPolicyDescription
+import aws.sdk.kotlin.services.dynamodb.model.AutoScalingTargetTrackingScalingPolicyConfigurationDescription
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

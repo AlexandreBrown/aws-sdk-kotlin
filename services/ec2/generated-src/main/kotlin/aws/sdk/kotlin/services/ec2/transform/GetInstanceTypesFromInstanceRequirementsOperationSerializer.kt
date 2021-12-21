@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ArchitectureType
 import aws.sdk.kotlin.services.ec2.model.GetInstanceTypesFromInstanceRequirementsRequest
+import aws.sdk.kotlin.services.ec2.model.InstanceRequirementsRequest
+import aws.sdk.kotlin.services.ec2.model.VirtualizationType
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

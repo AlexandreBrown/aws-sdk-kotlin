@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.IntelligentTieringAndOperator
 import aws.sdk.kotlin.services.s3.model.IntelligentTieringFilter
+import aws.sdk.kotlin.services.s3.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

@@ -3,6 +3,9 @@
 package aws.sdk.kotlin.services.dynamodb.transform
 
 import aws.sdk.kotlin.services.dynamodb.model.BackupDescription
+import aws.sdk.kotlin.services.dynamodb.model.BackupDetails
+import aws.sdk.kotlin.services.dynamodb.model.SourceTableDetails
+import aws.sdk.kotlin.services.dynamodb.model.SourceTableFeatureDetails
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.dynamodb.transform
 
 import aws.sdk.kotlin.services.dynamodb.model.ExecuteTransactionRequest
+import aws.sdk.kotlin.services.dynamodb.model.ParameterizedStatement
+import aws.sdk.kotlin.services.dynamodb.model.ReturnConsumedCapacity
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider
 import aws.smithy.kotlin.runtime.http.HttpBody

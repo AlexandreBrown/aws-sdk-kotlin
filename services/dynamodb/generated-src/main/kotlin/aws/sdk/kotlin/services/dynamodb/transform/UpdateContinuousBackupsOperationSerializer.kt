@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.PointInTimeRecoverySpecification
 import aws.sdk.kotlin.services.dynamodb.model.UpdateContinuousBackupsRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

@@ -12,6 +12,7 @@ import aws.sdk.kotlin.services.ec2.model.ImageState
 import aws.sdk.kotlin.services.ec2.model.ImageTypeValues
 import aws.sdk.kotlin.services.ec2.model.PlatformValues
 import aws.sdk.kotlin.services.ec2.model.ProductCode
+import aws.sdk.kotlin.services.ec2.model.StateReason
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.VirtualizationType
 import aws.smithy.kotlin.runtime.serde.Deserializer

@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.AnalyticsExportDestination
 import aws.sdk.kotlin.services.s3.model.StorageClassAnalysisDataExport
 import aws.sdk.kotlin.services.s3.model.StorageClassAnalysisSchemaVersion
 import aws.smithy.kotlin.runtime.serde.Deserializer

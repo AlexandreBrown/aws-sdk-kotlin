@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.AccessScopePath
+import aws.sdk.kotlin.services.ec2.model.PathStatement
 import aws.sdk.kotlin.services.ec2.model.ThroughResourcesStatement
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

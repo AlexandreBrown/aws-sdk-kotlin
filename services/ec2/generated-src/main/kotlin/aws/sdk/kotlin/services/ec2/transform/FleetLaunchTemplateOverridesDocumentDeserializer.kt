@@ -3,7 +3,9 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.FleetLaunchTemplateOverrides
+import aws.sdk.kotlin.services.ec2.model.InstanceRequirements
 import aws.sdk.kotlin.services.ec2.model.InstanceType
+import aws.sdk.kotlin.services.ec2.model.PlacementResponse
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

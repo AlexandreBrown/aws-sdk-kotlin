@@ -5,6 +5,7 @@ package aws.sdk.kotlin.services.ec2.transform
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayAttachmentState
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayVpcAttachment
+import aws.sdk.kotlin.services.ec2.model.TransitGatewayVpcAttachmentOptions
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

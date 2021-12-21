@@ -3,6 +3,11 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.CreateFlowLogsRequest
+import aws.sdk.kotlin.services.ec2.model.DestinationOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.FlowLogsResourceType
+import aws.sdk.kotlin.services.ec2.model.LogDestinationType
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
+import aws.sdk.kotlin.services.ec2.model.TrafficType
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

@@ -2,6 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ApplianceModeSupportValue
+import aws.sdk.kotlin.services.ec2.model.DnsSupportValue
+import aws.sdk.kotlin.services.ec2.model.Ipv6SupportValue
 import aws.sdk.kotlin.services.ec2.model.ModifyTransitGatewayVpcAttachmentRequestOptions
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

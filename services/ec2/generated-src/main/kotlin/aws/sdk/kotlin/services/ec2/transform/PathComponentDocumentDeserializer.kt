@@ -2,6 +2,11 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AnalysisAclRule
+import aws.sdk.kotlin.services.ec2.model.AnalysisComponent
+import aws.sdk.kotlin.services.ec2.model.AnalysisPacketHeader
+import aws.sdk.kotlin.services.ec2.model.AnalysisRouteTableRoute
+import aws.sdk.kotlin.services.ec2.model.AnalysisSecurityGroupRule
 import aws.sdk.kotlin.services.ec2.model.PathComponent
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

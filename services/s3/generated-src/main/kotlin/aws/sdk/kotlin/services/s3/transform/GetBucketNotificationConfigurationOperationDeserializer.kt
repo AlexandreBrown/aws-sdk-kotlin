@@ -7,6 +7,7 @@ import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.services.s3.internal.S3ErrorDetails
 import aws.sdk.kotlin.services.s3.internal.parseS3ErrorResponse
 import aws.sdk.kotlin.services.s3.internal.setS3ErrorMetadata
+import aws.sdk.kotlin.services.s3.model.EventBridgeConfiguration
 import aws.sdk.kotlin.services.s3.model.GetBucketNotificationConfigurationResponse
 import aws.sdk.kotlin.services.s3.model.LambdaFunctionConfiguration
 import aws.sdk.kotlin.services.s3.model.QueueConfiguration

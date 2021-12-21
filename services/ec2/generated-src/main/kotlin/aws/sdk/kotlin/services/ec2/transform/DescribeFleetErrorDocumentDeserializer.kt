@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.DescribeFleetError
 import aws.sdk.kotlin.services.ec2.model.InstanceLifecycle
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateAndOverridesResponse
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

@@ -5,6 +5,8 @@ package aws.sdk.kotlin.services.dynamodb.transform
 import aws.sdk.kotlin.services.dynamodb.model.GlobalSecondaryIndexDescription
 import aws.sdk.kotlin.services.dynamodb.model.IndexStatus
 import aws.sdk.kotlin.services.dynamodb.model.KeySchemaElement
+import aws.sdk.kotlin.services.dynamodb.model.Projection
+import aws.sdk.kotlin.services.dynamodb.model.ProvisionedThroughputDescription
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

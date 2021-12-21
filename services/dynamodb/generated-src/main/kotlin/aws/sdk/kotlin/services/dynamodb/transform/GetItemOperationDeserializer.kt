@@ -7,6 +7,7 @@ import aws.sdk.kotlin.runtime.http.setAseErrorMetadata
 import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.json.RestJsonErrorDeserializer
 import aws.sdk.kotlin.services.dynamodb.model.AttributeValue
+import aws.sdk.kotlin.services.dynamodb.model.ConsumedCapacity
 import aws.sdk.kotlin.services.dynamodb.model.DynamoDbException
 import aws.sdk.kotlin.services.dynamodb.model.GetItemResponse
 import aws.smithy.kotlin.runtime.client.ExecutionContext

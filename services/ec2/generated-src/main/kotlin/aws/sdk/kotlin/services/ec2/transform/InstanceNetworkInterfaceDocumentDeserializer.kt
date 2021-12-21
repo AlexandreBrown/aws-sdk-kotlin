@@ -7,6 +7,8 @@ import aws.sdk.kotlin.services.ec2.model.InstanceIpv4Prefix
 import aws.sdk.kotlin.services.ec2.model.InstanceIpv6Address
 import aws.sdk.kotlin.services.ec2.model.InstanceIpv6Prefix
 import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterface
+import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterfaceAssociation
+import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterfaceAttachment
 import aws.sdk.kotlin.services.ec2.model.InstancePrivateIpAddress
 import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceStatus
 import aws.smithy.kotlin.runtime.serde.Deserializer

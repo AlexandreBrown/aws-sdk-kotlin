@@ -4,6 +4,8 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.ExportTask
 import aws.sdk.kotlin.services.ec2.model.ExportTaskState
+import aws.sdk.kotlin.services.ec2.model.ExportToS3Task
+import aws.sdk.kotlin.services.ec2.model.InstanceExportDetails
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.Condition
+import aws.sdk.kotlin.services.s3.model.Redirect
 import aws.sdk.kotlin.services.s3.model.RoutingRule
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

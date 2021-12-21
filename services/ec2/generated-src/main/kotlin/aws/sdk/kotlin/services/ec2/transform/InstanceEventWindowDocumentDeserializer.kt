@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.InstanceEventWindow
+import aws.sdk.kotlin.services.ec2.model.InstanceEventWindowAssociationTarget
 import aws.sdk.kotlin.services.ec2.model.InstanceEventWindowState
 import aws.sdk.kotlin.services.ec2.model.InstanceEventWindowTimeRange
 import aws.sdk.kotlin.services.ec2.model.Tag

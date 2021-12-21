@@ -5,6 +5,7 @@ package aws.sdk.kotlin.services.ec2.transform
 import aws.sdk.kotlin.services.ec2.model.EbsEncryptionSupport
 import aws.sdk.kotlin.services.ec2.model.EbsInfo
 import aws.sdk.kotlin.services.ec2.model.EbsNvmeSupport
+import aws.sdk.kotlin.services.ec2.model.EbsOptimizedInfo
 import aws.sdk.kotlin.services.ec2.model.EbsOptimizedSupport
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

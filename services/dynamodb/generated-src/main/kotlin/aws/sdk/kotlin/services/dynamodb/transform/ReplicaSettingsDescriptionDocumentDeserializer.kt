@@ -2,9 +2,12 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.AutoScalingSettingsDescription
+import aws.sdk.kotlin.services.dynamodb.model.BillingModeSummary
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaGlobalSecondaryIndexSettingsDescription
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaSettingsDescription
 import aws.sdk.kotlin.services.dynamodb.model.ReplicaStatus
+import aws.sdk.kotlin.services.dynamodb.model.TableClassSummary
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

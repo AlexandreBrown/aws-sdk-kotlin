@@ -8,6 +8,7 @@ import aws.sdk.kotlin.services.s3.internal.S3ErrorDetails
 import aws.sdk.kotlin.services.s3.internal.parseS3ErrorResponse
 import aws.sdk.kotlin.services.s3.internal.setS3ErrorMetadata
 import aws.sdk.kotlin.services.s3.model.GetObjectLockConfigurationResponse
+import aws.sdk.kotlin.services.s3.model.ObjectLockConfiguration
 import aws.sdk.kotlin.services.s3.model.S3Exception
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpStatusCode

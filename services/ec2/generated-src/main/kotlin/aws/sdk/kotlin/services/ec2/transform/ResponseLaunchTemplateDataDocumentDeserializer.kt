@@ -2,13 +2,25 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.CreditSpecification
 import aws.sdk.kotlin.services.ec2.model.ElasticGpuSpecificationResponse
+import aws.sdk.kotlin.services.ec2.model.InstanceRequirements
 import aws.sdk.kotlin.services.ec2.model.InstanceType
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateBlockDeviceMapping
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateCapacityReservationSpecificationResponse
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateCpuOptions
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateElasticInferenceAcceleratorResponse
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateEnclaveOptions
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateHibernationOptions
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateIamInstanceProfileSpecification
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceMarketOptions
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceMetadataOptions
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceNetworkInterfaceSpecification
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateLicenseConfiguration
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplatePlacement
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplatePrivateDnsNameOptions
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateTagSpecification
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplatesMonitoring
 import aws.sdk.kotlin.services.ec2.model.ResponseLaunchTemplateData
 import aws.sdk.kotlin.services.ec2.model.ShutdownBehavior
 import aws.smithy.kotlin.runtime.serde.Deserializer

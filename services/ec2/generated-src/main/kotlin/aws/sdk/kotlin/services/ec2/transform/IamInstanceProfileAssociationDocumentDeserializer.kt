@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.IamInstanceProfile
 import aws.sdk.kotlin.services.ec2.model.IamInstanceProfileAssociation
 import aws.sdk.kotlin.services.ec2.model.IamInstanceProfileAssociationState
 import aws.smithy.kotlin.runtime.serde.Deserializer

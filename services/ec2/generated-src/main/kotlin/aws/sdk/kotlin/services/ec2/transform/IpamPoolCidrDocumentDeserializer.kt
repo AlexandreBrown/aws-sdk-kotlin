@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.IpamPoolCidr
+import aws.sdk.kotlin.services.ec2.model.IpamPoolCidrFailureReason
 import aws.sdk.kotlin.services.ec2.model.IpamPoolCidrState
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

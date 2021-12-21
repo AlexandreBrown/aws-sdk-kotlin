@@ -2,7 +2,11 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.AccessControlTranslation
 import aws.sdk.kotlin.services.s3.model.Destination
+import aws.sdk.kotlin.services.s3.model.EncryptionConfiguration
+import aws.sdk.kotlin.services.s3.model.Metrics
+import aws.sdk.kotlin.services.s3.model.ReplicationTime
 import aws.sdk.kotlin.services.s3.model.StorageClass
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

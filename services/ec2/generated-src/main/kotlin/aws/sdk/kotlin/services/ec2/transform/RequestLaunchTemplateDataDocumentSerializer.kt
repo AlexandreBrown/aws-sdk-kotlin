@@ -2,7 +2,27 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.CreditSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.ElasticGpuSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceRequirementsRequest
+import aws.sdk.kotlin.services.ec2.model.InstanceType
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateBlockDeviceMappingRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateCapacityReservationSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateCpuOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateElasticInferenceAccelerator
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateEnclaveOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateHibernationOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateIamInstanceProfileSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceMarketOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceMetadataOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceNetworkInterfaceSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateLicenseConfigurationRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplatePlacementRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplatePrivateDnsNameOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateTagSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplatesMonitoringRequest
 import aws.sdk.kotlin.services.ec2.model.RequestLaunchTemplateData
+import aws.sdk.kotlin.services.ec2.model.ShutdownBehavior
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

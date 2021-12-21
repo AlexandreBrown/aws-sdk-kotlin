@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.AccelerateConfiguration
+import aws.sdk.kotlin.services.s3.model.BucketAccelerateStatus
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

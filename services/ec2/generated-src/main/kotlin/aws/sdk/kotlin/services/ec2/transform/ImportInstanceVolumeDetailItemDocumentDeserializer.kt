@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.DiskImageDescription
+import aws.sdk.kotlin.services.ec2.model.DiskImageVolumeDescription
 import aws.sdk.kotlin.services.ec2.model.ImportInstanceVolumeDetailItem
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

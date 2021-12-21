@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.FpgaImageAttributeName
+import aws.sdk.kotlin.services.ec2.model.LoadPermissionModifications
 import aws.sdk.kotlin.services.ec2.model.ModifyFpgaImageAttributeRequest
+import aws.sdk.kotlin.services.ec2.model.OperationType
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

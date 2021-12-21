@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.DestinationOptionsResponse
 import aws.sdk.kotlin.services.ec2.model.FlowLog
 import aws.sdk.kotlin.services.ec2.model.LogDestinationType
 import aws.sdk.kotlin.services.ec2.model.Tag

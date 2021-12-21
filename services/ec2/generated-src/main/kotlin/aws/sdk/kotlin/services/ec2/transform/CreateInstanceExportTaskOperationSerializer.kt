@@ -3,6 +3,9 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.CreateInstanceExportTaskRequest
+import aws.sdk.kotlin.services.ec2.model.ExportEnvironment
+import aws.sdk.kotlin.services.ec2.model.ExportToS3TaskSpecification
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

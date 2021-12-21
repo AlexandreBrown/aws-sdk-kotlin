@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.CidrBlock
 import aws.sdk.kotlin.services.ec2.model.Ipv6CidrBlock
+import aws.sdk.kotlin.services.ec2.model.VpcPeeringConnectionOptionsDescription
 import aws.sdk.kotlin.services.ec2.model.VpcPeeringConnectionVpcInfo
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.BootModeValues
+import aws.sdk.kotlin.services.ec2.model.ClientData
+import aws.sdk.kotlin.services.ec2.model.ImageDiskContainer
+import aws.sdk.kotlin.services.ec2.model.ImportImageLicenseConfigurationRequest
 import aws.sdk.kotlin.services.ec2.model.ImportImageRequest
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

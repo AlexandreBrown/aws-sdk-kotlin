@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.InterfacePermissionType
 import aws.sdk.kotlin.services.ec2.model.NetworkInterfacePermission
+import aws.sdk.kotlin.services.ec2.model.NetworkInterfacePermissionState
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

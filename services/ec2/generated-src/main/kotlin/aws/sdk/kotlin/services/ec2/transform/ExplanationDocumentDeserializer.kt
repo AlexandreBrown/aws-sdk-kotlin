@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AnalysisAclRule
 import aws.sdk.kotlin.services.ec2.model.AnalysisComponent
+import aws.sdk.kotlin.services.ec2.model.AnalysisLoadBalancerListener
+import aws.sdk.kotlin.services.ec2.model.AnalysisLoadBalancerTarget
+import aws.sdk.kotlin.services.ec2.model.AnalysisRouteTableRoute
+import aws.sdk.kotlin.services.ec2.model.AnalysisSecurityGroupRule
 import aws.sdk.kotlin.services.ec2.model.Explanation
 import aws.sdk.kotlin.services.ec2.model.PortRange
 import aws.smithy.kotlin.runtime.serde.Deserializer

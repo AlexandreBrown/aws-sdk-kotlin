@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.ObjectLockRetention
 import aws.sdk.kotlin.services.s3.model.PutObjectRetentionRequest
+import aws.sdk.kotlin.services.s3.model.RequestPayer
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

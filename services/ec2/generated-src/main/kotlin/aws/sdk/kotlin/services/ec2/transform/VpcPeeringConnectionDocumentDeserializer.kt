@@ -4,6 +4,8 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.VpcPeeringConnection
+import aws.sdk.kotlin.services.ec2.model.VpcPeeringConnectionStateReason
+import aws.sdk.kotlin.services.ec2.model.VpcPeeringConnectionVpcInfo
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

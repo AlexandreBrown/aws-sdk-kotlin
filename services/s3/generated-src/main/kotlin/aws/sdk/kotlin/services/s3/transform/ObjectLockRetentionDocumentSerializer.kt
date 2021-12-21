@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.ObjectLockRetention
+import aws.sdk.kotlin.services.s3.model.ObjectLockRetentionMode
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind
@@ -18,6 +19,7 @@ import aws.smithy.kotlin.runtime.serde.serializeStruct
 import aws.smithy.kotlin.runtime.serde.xml.XmlDeserializer
 import aws.smithy.kotlin.runtime.serde.xml.XmlNamespace
 import aws.smithy.kotlin.runtime.serde.xml.XmlSerialName
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

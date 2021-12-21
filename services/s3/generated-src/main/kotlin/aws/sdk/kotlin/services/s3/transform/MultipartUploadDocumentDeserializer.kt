@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.Initiator
 import aws.sdk.kotlin.services.s3.model.MultipartUpload
+import aws.sdk.kotlin.services.s3.model.Owner
 import aws.sdk.kotlin.services.s3.model.StorageClass
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

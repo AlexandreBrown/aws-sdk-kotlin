@@ -3,6 +3,12 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.DescribeReservedInstancesOfferingsRequest
+import aws.sdk.kotlin.services.ec2.model.Filter
+import aws.sdk.kotlin.services.ec2.model.InstanceType
+import aws.sdk.kotlin.services.ec2.model.OfferingClassType
+import aws.sdk.kotlin.services.ec2.model.OfferingTypeValues
+import aws.sdk.kotlin.services.ec2.model.RiProductDescription
+import aws.sdk.kotlin.services.ec2.model.Tenancy
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

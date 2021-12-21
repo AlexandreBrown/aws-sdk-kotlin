@@ -2,7 +2,13 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ClientConnectOptions
+import aws.sdk.kotlin.services.ec2.model.ClientVpnAuthenticationRequest
+import aws.sdk.kotlin.services.ec2.model.ConnectionLogOptions
 import aws.sdk.kotlin.services.ec2.model.CreateClientVpnEndpointRequest
+import aws.sdk.kotlin.services.ec2.model.SelfServicePortal
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
+import aws.sdk.kotlin.services.ec2.model.TransportProtocol
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider
 import aws.smithy.kotlin.runtime.http.HttpBody

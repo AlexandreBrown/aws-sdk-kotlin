@@ -8,6 +8,7 @@ import aws.sdk.kotlin.services.s3.internal.S3ErrorDetails
 import aws.sdk.kotlin.services.s3.internal.parseS3ErrorResponse
 import aws.sdk.kotlin.services.s3.internal.setS3ErrorMetadata
 import aws.sdk.kotlin.services.s3.model.CopyObjectResponse
+import aws.sdk.kotlin.services.s3.model.CopyObjectResult
 import aws.sdk.kotlin.services.s3.model.RequestCharged
 import aws.sdk.kotlin.services.s3.model.S3Exception
 import aws.sdk.kotlin.services.s3.model.ServerSideEncryption

@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.TransitGatewayPrefixListAttachment
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayPrefixListReference
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayPrefixListReferenceState
 import aws.smithy.kotlin.runtime.serde.Deserializer

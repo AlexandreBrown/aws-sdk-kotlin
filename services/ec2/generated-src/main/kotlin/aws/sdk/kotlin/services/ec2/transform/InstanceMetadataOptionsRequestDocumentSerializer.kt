@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.HttpTokensState
+import aws.sdk.kotlin.services.ec2.model.InstanceMetadataEndpointState
 import aws.sdk.kotlin.services.ec2.model.InstanceMetadataOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.InstanceMetadataProtocolState
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

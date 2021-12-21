@@ -2,7 +2,24 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AcceleratorCount
+import aws.sdk.kotlin.services.ec2.model.AcceleratorManufacturer
+import aws.sdk.kotlin.services.ec2.model.AcceleratorName
+import aws.sdk.kotlin.services.ec2.model.AcceleratorTotalMemoryMib
+import aws.sdk.kotlin.services.ec2.model.AcceleratorType
+import aws.sdk.kotlin.services.ec2.model.BareMetal
+import aws.sdk.kotlin.services.ec2.model.BaselineEbsBandwidthMbps
+import aws.sdk.kotlin.services.ec2.model.BurstablePerformance
+import aws.sdk.kotlin.services.ec2.model.CpuManufacturer
+import aws.sdk.kotlin.services.ec2.model.InstanceGeneration
 import aws.sdk.kotlin.services.ec2.model.InstanceRequirements
+import aws.sdk.kotlin.services.ec2.model.LocalStorage
+import aws.sdk.kotlin.services.ec2.model.LocalStorageType
+import aws.sdk.kotlin.services.ec2.model.MemoryGiBPerVCpu
+import aws.sdk.kotlin.services.ec2.model.MemoryMib
+import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceCount
+import aws.sdk.kotlin.services.ec2.model.TotalLocalStorageGb
+import aws.sdk.kotlin.services.ec2.model.VCpuCountRange
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

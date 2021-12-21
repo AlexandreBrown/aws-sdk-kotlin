@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.CreateGlobalSecondaryIndexAction
+import aws.sdk.kotlin.services.dynamodb.model.DeleteGlobalSecondaryIndexAction
 import aws.sdk.kotlin.services.dynamodb.model.GlobalSecondaryIndexUpdate
+import aws.sdk.kotlin.services.dynamodb.model.UpdateGlobalSecondaryIndexAction
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

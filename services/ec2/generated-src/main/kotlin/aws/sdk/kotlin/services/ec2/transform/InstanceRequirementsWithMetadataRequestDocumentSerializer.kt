@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ArchitectureType
+import aws.sdk.kotlin.services.ec2.model.InstanceRequirementsRequest
 import aws.sdk.kotlin.services.ec2.model.InstanceRequirementsWithMetadataRequest
+import aws.sdk.kotlin.services.ec2.model.VirtualizationType
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

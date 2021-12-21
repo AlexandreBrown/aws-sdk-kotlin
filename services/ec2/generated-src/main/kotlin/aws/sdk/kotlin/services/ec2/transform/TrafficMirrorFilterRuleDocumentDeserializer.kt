@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.TrafficDirection
 import aws.sdk.kotlin.services.ec2.model.TrafficMirrorFilterRule
+import aws.sdk.kotlin.services.ec2.model.TrafficMirrorPortRange
 import aws.sdk.kotlin.services.ec2.model.TrafficMirrorRuleAction
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

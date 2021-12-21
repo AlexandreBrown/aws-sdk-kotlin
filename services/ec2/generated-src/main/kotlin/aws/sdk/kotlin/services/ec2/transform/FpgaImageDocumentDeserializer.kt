@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.FpgaImage
+import aws.sdk.kotlin.services.ec2.model.FpgaImageState
+import aws.sdk.kotlin.services.ec2.model.PciId
 import aws.sdk.kotlin.services.ec2.model.ProductCode
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer

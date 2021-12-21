@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.PutBucketWebsiteRequest
+import aws.sdk.kotlin.services.s3.model.WebsiteConfiguration
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

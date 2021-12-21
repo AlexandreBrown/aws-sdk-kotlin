@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.sts.transform
 
 import aws.sdk.kotlin.services.sts.model.GetFederationTokenRequest
+import aws.sdk.kotlin.services.sts.model.PolicyDescriptorType
+import aws.sdk.kotlin.services.sts.model.Tag
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

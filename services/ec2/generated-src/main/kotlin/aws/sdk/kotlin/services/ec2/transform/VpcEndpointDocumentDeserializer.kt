@@ -3,6 +3,7 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.DnsEntry
+import aws.sdk.kotlin.services.ec2.model.LastError
 import aws.sdk.kotlin.services.ec2.model.SecurityGroupIdentifier
 import aws.sdk.kotlin.services.ec2.model.State
 import aws.sdk.kotlin.services.ec2.model.Tag

@@ -3,8 +3,11 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.InventoryConfiguration
+import aws.sdk.kotlin.services.s3.model.InventoryDestination
+import aws.sdk.kotlin.services.s3.model.InventoryFilter
 import aws.sdk.kotlin.services.s3.model.InventoryIncludedObjectVersions
 import aws.sdk.kotlin.services.s3.model.InventoryOptionalField
+import aws.sdk.kotlin.services.s3.model.InventorySchedule
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

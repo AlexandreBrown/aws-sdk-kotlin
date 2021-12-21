@@ -2,7 +2,11 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.EventBridgeConfiguration
+import aws.sdk.kotlin.services.s3.model.LambdaFunctionConfiguration
 import aws.sdk.kotlin.services.s3.model.NotificationConfiguration
+import aws.sdk.kotlin.services.s3.model.QueueConfiguration
+import aws.sdk.kotlin.services.s3.model.TopicConfiguration
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

@@ -3,7 +3,9 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.BundleTask
+import aws.sdk.kotlin.services.ec2.model.BundleTaskError
 import aws.sdk.kotlin.services.ec2.model.BundleTaskState
+import aws.sdk.kotlin.services.ec2.model.Storage
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

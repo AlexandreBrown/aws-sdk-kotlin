@@ -5,6 +5,7 @@ package aws.sdk.kotlin.services.ec2.transform
 import aws.sdk.kotlin.services.ec2.model.ActivityStatus
 import aws.sdk.kotlin.services.ec2.model.BatchState
 import aws.sdk.kotlin.services.ec2.model.SpotFleetRequestConfig
+import aws.sdk.kotlin.services.ec2.model.SpotFleetRequestConfigData
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

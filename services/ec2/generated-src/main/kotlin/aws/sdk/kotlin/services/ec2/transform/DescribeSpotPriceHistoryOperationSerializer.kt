@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.DescribeSpotPriceHistoryRequest
+import aws.sdk.kotlin.services.ec2.model.Filter
+import aws.sdk.kotlin.services.ec2.model.InstanceType
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod
@@ -25,6 +27,7 @@ import aws.smithy.kotlin.runtime.serde.formurl.QueryLiteral
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

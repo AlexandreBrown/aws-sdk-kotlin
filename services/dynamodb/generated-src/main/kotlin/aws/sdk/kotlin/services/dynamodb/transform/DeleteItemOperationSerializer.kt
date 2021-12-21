@@ -2,7 +2,13 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.AttributeValue
+import aws.sdk.kotlin.services.dynamodb.model.ConditionalOperator
 import aws.sdk.kotlin.services.dynamodb.model.DeleteItemRequest
+import aws.sdk.kotlin.services.dynamodb.model.ExpectedAttributeValue
+import aws.sdk.kotlin.services.dynamodb.model.ReturnConsumedCapacity
+import aws.sdk.kotlin.services.dynamodb.model.ReturnItemCollectionMetrics
+import aws.sdk.kotlin.services.dynamodb.model.ReturnValue
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.Object
 import aws.sdk.kotlin.services.s3.model.ObjectStorageClass
+import aws.sdk.kotlin.services.s3.model.Owner
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

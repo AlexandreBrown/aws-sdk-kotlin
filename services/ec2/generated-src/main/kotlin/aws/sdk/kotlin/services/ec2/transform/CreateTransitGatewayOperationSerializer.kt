@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.CreateTransitGatewayRequest
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
+import aws.sdk.kotlin.services.ec2.model.TransitGatewayRequestOptions
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

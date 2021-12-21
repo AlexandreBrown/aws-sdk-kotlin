@@ -2,6 +2,14 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.AttributeDefinition
+import aws.sdk.kotlin.services.dynamodb.model.BillingMode
+import aws.sdk.kotlin.services.dynamodb.model.GlobalSecondaryIndexUpdate
+import aws.sdk.kotlin.services.dynamodb.model.ProvisionedThroughput
+import aws.sdk.kotlin.services.dynamodb.model.ReplicationGroupUpdate
+import aws.sdk.kotlin.services.dynamodb.model.SseSpecification
+import aws.sdk.kotlin.services.dynamodb.model.StreamSpecification
+import aws.sdk.kotlin.services.dynamodb.model.TableClass
 import aws.sdk.kotlin.services.dynamodb.model.UpdateTableRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

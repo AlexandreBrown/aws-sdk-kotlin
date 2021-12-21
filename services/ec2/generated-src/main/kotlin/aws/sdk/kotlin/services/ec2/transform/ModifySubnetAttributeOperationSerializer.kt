@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.AttributeBooleanValue
+import aws.sdk.kotlin.services.ec2.model.HostnameType
 import aws.sdk.kotlin.services.ec2.model.ModifySubnetAttributeRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody

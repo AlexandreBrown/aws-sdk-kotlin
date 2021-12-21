@@ -8,6 +8,7 @@ import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.json.RestJsonErrorDeserializer
 import aws.sdk.kotlin.services.dynamodb.model.CreateGlobalTableResponse
 import aws.sdk.kotlin.services.dynamodb.model.DynamoDbException
+import aws.sdk.kotlin.services.dynamodb.model.GlobalTableDescription
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.isSuccess
 import aws.smithy.kotlin.runtime.http.operation.HttpDeserialize

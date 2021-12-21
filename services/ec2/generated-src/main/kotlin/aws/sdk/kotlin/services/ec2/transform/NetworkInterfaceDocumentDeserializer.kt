@@ -6,6 +6,8 @@ import aws.sdk.kotlin.services.ec2.model.GroupIdentifier
 import aws.sdk.kotlin.services.ec2.model.Ipv4PrefixSpecification
 import aws.sdk.kotlin.services.ec2.model.Ipv6PrefixSpecification
 import aws.sdk.kotlin.services.ec2.model.NetworkInterface
+import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceAssociation
+import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceAttachment
 import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceIpv6Address
 import aws.sdk.kotlin.services.ec2.model.NetworkInterfacePrivateIpAddress
 import aws.sdk.kotlin.services.ec2.model.NetworkInterfaceStatus

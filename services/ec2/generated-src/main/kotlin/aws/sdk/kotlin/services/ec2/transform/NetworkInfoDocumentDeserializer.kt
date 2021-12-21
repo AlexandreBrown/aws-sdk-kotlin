@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.EfaInfo
 import aws.sdk.kotlin.services.ec2.model.EnaSupport
 import aws.sdk.kotlin.services.ec2.model.NetworkCardInfo
 import aws.sdk.kotlin.services.ec2.model.NetworkInfo

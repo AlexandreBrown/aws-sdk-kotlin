@@ -3,8 +3,11 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.AssociatedTargetNetwork
+import aws.sdk.kotlin.services.ec2.model.ClientConnectResponseOptions
 import aws.sdk.kotlin.services.ec2.model.ClientVpnAuthentication
 import aws.sdk.kotlin.services.ec2.model.ClientVpnEndpoint
+import aws.sdk.kotlin.services.ec2.model.ClientVpnEndpointStatus
+import aws.sdk.kotlin.services.ec2.model.ConnectionLogResponseOptions
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.TransportProtocol
 import aws.sdk.kotlin.services.ec2.model.VpnProtocol

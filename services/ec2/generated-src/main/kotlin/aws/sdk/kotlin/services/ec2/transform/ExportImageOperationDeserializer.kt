@@ -9,6 +9,7 @@ import aws.sdk.kotlin.runtime.protocol.xml.parseEc2QueryErrorResponse
 import aws.sdk.kotlin.services.ec2.model.DiskImageFormat
 import aws.sdk.kotlin.services.ec2.model.Ec2Exception
 import aws.sdk.kotlin.services.ec2.model.ExportImageResponse
+import aws.sdk.kotlin.services.ec2.model.ExportTaskS3Location
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.isSuccess

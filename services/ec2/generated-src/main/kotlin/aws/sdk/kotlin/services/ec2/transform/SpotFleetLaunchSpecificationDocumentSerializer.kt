@@ -2,7 +2,16 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.BlockDeviceMapping
+import aws.sdk.kotlin.services.ec2.model.GroupIdentifier
+import aws.sdk.kotlin.services.ec2.model.IamInstanceProfileSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterfaceSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceRequirements
+import aws.sdk.kotlin.services.ec2.model.InstanceType
 import aws.sdk.kotlin.services.ec2.model.SpotFleetLaunchSpecification
+import aws.sdk.kotlin.services.ec2.model.SpotFleetMonitoring
+import aws.sdk.kotlin.services.ec2.model.SpotFleetTagSpecification
+import aws.sdk.kotlin.services.ec2.model.SpotPlacement
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

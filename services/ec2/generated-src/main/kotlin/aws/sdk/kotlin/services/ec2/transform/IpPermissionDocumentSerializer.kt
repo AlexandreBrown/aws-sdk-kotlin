@@ -3,6 +3,10 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.IpPermission
+import aws.sdk.kotlin.services.ec2.model.IpRange
+import aws.sdk.kotlin.services.ec2.model.Ipv6Range
+import aws.sdk.kotlin.services.ec2.model.PrefixListId
+import aws.sdk.kotlin.services.ec2.model.UserIdGroupPair
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

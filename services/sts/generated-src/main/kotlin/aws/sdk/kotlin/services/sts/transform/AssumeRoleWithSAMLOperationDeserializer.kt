@@ -7,6 +7,8 @@ import aws.sdk.kotlin.runtime.http.setAseErrorMetadata
 import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.xml.parseRestXmlErrorResponse
 import aws.sdk.kotlin.services.sts.model.AssumeRoleWithSamlResponse
+import aws.sdk.kotlin.services.sts.model.AssumedRoleUser
+import aws.sdk.kotlin.services.sts.model.Credentials
 import aws.sdk.kotlin.services.sts.model.StsException
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.isSuccess

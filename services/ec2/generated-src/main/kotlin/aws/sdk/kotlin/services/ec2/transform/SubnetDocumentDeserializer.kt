@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.PrivateDnsNameOptionsOnLaunch
 import aws.sdk.kotlin.services.ec2.model.Subnet
 import aws.sdk.kotlin.services.ec2.model.SubnetIpv6CidrBlockAssociation
 import aws.sdk.kotlin.services.ec2.model.SubnetState

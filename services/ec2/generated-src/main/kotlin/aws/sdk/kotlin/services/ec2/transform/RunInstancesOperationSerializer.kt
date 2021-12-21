@@ -2,7 +2,28 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.BlockDeviceMapping
+import aws.sdk.kotlin.services.ec2.model.CapacityReservationSpecification
+import aws.sdk.kotlin.services.ec2.model.CpuOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.CreditSpecificationRequest
+import aws.sdk.kotlin.services.ec2.model.ElasticGpuSpecification
+import aws.sdk.kotlin.services.ec2.model.ElasticInferenceAccelerator
+import aws.sdk.kotlin.services.ec2.model.EnclaveOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.HibernationOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.IamInstanceProfileSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceIpv6Address
+import aws.sdk.kotlin.services.ec2.model.InstanceMarketOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.InstanceMetadataOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.InstanceNetworkInterfaceSpecification
+import aws.sdk.kotlin.services.ec2.model.InstanceType
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateSpecification
+import aws.sdk.kotlin.services.ec2.model.LicenseConfigurationRequest
+import aws.sdk.kotlin.services.ec2.model.Placement
+import aws.sdk.kotlin.services.ec2.model.PrivateDnsNameOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.RunInstancesMonitoringEnabled
 import aws.sdk.kotlin.services.ec2.model.RunInstancesRequest
+import aws.sdk.kotlin.services.ec2.model.ShutdownBehavior
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.client.idempotencyTokenProvider
 import aws.smithy.kotlin.runtime.http.HttpBody

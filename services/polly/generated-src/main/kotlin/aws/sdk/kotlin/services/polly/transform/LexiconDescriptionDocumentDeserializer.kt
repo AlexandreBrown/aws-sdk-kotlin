@@ -2,6 +2,7 @@
 
 package aws.sdk.kotlin.services.polly.transform
 
+import aws.sdk.kotlin.services.polly.model.LexiconAttributes
 import aws.sdk.kotlin.services.polly.model.LexiconDescription
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

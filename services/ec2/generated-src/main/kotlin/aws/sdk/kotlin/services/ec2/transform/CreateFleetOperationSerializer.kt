@@ -3,6 +3,13 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.CreateFleetRequest
+import aws.sdk.kotlin.services.ec2.model.FleetExcessCapacityTerminationPolicy
+import aws.sdk.kotlin.services.ec2.model.FleetLaunchTemplateConfigRequest
+import aws.sdk.kotlin.services.ec2.model.FleetType
+import aws.sdk.kotlin.services.ec2.model.OnDemandOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.SpotOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
+import aws.sdk.kotlin.services.ec2.model.TargetCapacitySpecificationRequest
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod
@@ -25,6 +32,7 @@ import aws.smithy.kotlin.runtime.serde.formurl.QueryLiteral
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

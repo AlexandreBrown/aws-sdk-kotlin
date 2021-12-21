@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.ClassicLoadBalancersConfig
 import aws.sdk.kotlin.services.ec2.model.LoadBalancersConfig
+import aws.sdk.kotlin.services.ec2.model.TargetGroupsConfig
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

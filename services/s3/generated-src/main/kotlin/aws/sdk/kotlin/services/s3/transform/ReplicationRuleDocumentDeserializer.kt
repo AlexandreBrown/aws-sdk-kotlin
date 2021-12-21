@@ -2,8 +2,13 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.DeleteMarkerReplication
+import aws.sdk.kotlin.services.s3.model.Destination
+import aws.sdk.kotlin.services.s3.model.ExistingObjectReplication
 import aws.sdk.kotlin.services.s3.model.ReplicationRule
+import aws.sdk.kotlin.services.s3.model.ReplicationRuleFilter
 import aws.sdk.kotlin.services.s3.model.ReplicationRuleStatus
+import aws.sdk.kotlin.services.s3.model.SourceSelectionCriteria
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

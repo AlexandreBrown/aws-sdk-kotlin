@@ -4,6 +4,8 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.ConversionTask
 import aws.sdk.kotlin.services.ec2.model.ConversionTaskState
+import aws.sdk.kotlin.services.ec2.model.ImportInstanceTaskDetails
+import aws.sdk.kotlin.services.ec2.model.ImportVolumeTaskDetails
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.CapacityReservationInstancePlatform
+import aws.sdk.kotlin.services.ec2.model.CapacityReservationTenancy
 import aws.sdk.kotlin.services.ec2.model.CreateCapacityReservationRequest
+import aws.sdk.kotlin.services.ec2.model.EndDateType
+import aws.sdk.kotlin.services.ec2.model.InstanceMatchCriteria
+import aws.sdk.kotlin.services.ec2.model.TagSpecification
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod
@@ -25,6 +30,7 @@ import aws.smithy.kotlin.runtime.serde.formurl.QueryLiteral
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

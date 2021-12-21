@@ -6,6 +6,7 @@ import aws.sdk.kotlin.services.ec2.model.ConnectivityType
 import aws.sdk.kotlin.services.ec2.model.NatGateway
 import aws.sdk.kotlin.services.ec2.model.NatGatewayAddress
 import aws.sdk.kotlin.services.ec2.model.NatGatewayState
+import aws.sdk.kotlin.services.ec2.model.ProvisionedBandwidth
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

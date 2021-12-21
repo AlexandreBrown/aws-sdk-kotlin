@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.IcmpTypeCode
 import aws.sdk.kotlin.services.ec2.model.NetworkAclEntry
+import aws.sdk.kotlin.services.ec2.model.PortRange
 import aws.sdk.kotlin.services.ec2.model.RuleAction
 import aws.smithy.kotlin.runtime.serde.Deserializer
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor

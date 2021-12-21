@@ -2,6 +2,13 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.IkeVersionsRequestListValue
+import aws.sdk.kotlin.services.ec2.model.Phase1DhGroupNumbersRequestListValue
+import aws.sdk.kotlin.services.ec2.model.Phase1EncryptionAlgorithmsRequestListValue
+import aws.sdk.kotlin.services.ec2.model.Phase1IntegrityAlgorithmsRequestListValue
+import aws.sdk.kotlin.services.ec2.model.Phase2DhGroupNumbersRequestListValue
+import aws.sdk.kotlin.services.ec2.model.Phase2EncryptionAlgorithmsRequestListValue
+import aws.sdk.kotlin.services.ec2.model.Phase2IntegrityAlgorithmsRequestListValue
 import aws.sdk.kotlin.services.ec2.model.VpnTunnelOptionsSpecification
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor

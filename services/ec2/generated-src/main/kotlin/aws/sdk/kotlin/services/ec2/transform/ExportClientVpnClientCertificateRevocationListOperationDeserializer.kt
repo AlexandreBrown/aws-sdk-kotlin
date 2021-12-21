@@ -6,6 +6,7 @@ import aws.sdk.kotlin.runtime.UnknownServiceErrorException
 import aws.sdk.kotlin.runtime.http.setAseErrorMetadata
 import aws.sdk.kotlin.runtime.http.withPayload
 import aws.sdk.kotlin.runtime.protocol.xml.parseEc2QueryErrorResponse
+import aws.sdk.kotlin.services.ec2.model.ClientCertificateRevocationListStatus
 import aws.sdk.kotlin.services.ec2.model.Ec2Exception
 import aws.sdk.kotlin.services.ec2.model.ExportClientVpnClientCertificateRevocationListResponse
 import aws.smithy.kotlin.runtime.client.ExecutionContext

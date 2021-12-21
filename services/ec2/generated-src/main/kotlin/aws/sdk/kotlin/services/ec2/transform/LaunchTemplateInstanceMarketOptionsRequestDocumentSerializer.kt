@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.LaunchTemplateInstanceMarketOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.LaunchTemplateSpotMarketOptionsRequest
+import aws.sdk.kotlin.services.ec2.model.MarketType
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

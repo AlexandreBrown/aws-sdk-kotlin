@@ -18,6 +18,7 @@ import aws.smithy.kotlin.runtime.serde.serializeStruct
 import aws.smithy.kotlin.runtime.serde.xml.XmlDeserializer
 import aws.smithy.kotlin.runtime.serde.xml.XmlNamespace
 import aws.smithy.kotlin.runtime.serde.xml.XmlSerialName
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

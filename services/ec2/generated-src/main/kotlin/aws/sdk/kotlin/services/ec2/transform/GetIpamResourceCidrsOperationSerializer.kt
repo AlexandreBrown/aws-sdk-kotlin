@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.Filter
 import aws.sdk.kotlin.services.ec2.model.GetIpamResourceCidrsRequest
+import aws.sdk.kotlin.services.ec2.model.IpamResourceType
+import aws.sdk.kotlin.services.ec2.model.RequestIpamResourceTag
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

@@ -3,6 +3,8 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.AnalyticsConfiguration
+import aws.sdk.kotlin.services.s3.model.AnalyticsFilter
+import aws.sdk.kotlin.services.s3.model.StorageClassAnalysis
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

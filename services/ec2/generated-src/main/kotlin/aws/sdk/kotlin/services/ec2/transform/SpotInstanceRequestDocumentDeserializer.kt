@@ -3,9 +3,12 @@
 package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.InstanceInterruptionBehavior
+import aws.sdk.kotlin.services.ec2.model.LaunchSpecification
 import aws.sdk.kotlin.services.ec2.model.RiProductDescription
 import aws.sdk.kotlin.services.ec2.model.SpotInstanceRequest
 import aws.sdk.kotlin.services.ec2.model.SpotInstanceState
+import aws.sdk.kotlin.services.ec2.model.SpotInstanceStateFault
+import aws.sdk.kotlin.services.ec2.model.SpotInstanceStatus
 import aws.sdk.kotlin.services.ec2.model.SpotInstanceType
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.smithy.kotlin.runtime.serde.Deserializer

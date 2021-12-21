@@ -3,6 +3,12 @@
 package aws.sdk.kotlin.services.s3.transform
 
 import aws.sdk.kotlin.services.s3.model.CreateMultipartUploadRequest
+import aws.sdk.kotlin.services.s3.model.ObjectCannedAcl
+import aws.sdk.kotlin.services.s3.model.ObjectLockLegalHoldStatus
+import aws.sdk.kotlin.services.s3.model.ObjectLockMode
+import aws.sdk.kotlin.services.s3.model.RequestPayer
+import aws.sdk.kotlin.services.s3.model.ServerSideEncryption
+import aws.sdk.kotlin.services.s3.model.StorageClass
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod
@@ -13,6 +19,7 @@ import aws.smithy.kotlin.runtime.http.request.HttpRequestBuilder
 import aws.smithy.kotlin.runtime.http.request.headers
 import aws.smithy.kotlin.runtime.http.request.url
 import aws.smithy.kotlin.runtime.http.util.encodeLabel
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

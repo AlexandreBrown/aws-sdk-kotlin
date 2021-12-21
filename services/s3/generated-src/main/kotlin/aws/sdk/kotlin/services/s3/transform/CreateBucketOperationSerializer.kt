@@ -2,7 +2,10 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.BucketCannedAcl
+import aws.sdk.kotlin.services.s3.model.CreateBucketConfiguration
 import aws.sdk.kotlin.services.s3.model.CreateBucketRequest
+import aws.sdk.kotlin.services.s3.model.ObjectOwnership
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod

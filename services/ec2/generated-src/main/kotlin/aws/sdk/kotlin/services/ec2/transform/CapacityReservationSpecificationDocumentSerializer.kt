@@ -2,7 +2,9 @@
 
 package aws.sdk.kotlin.services.ec2.transform
 
+import aws.sdk.kotlin.services.ec2.model.CapacityReservationPreference
 import aws.sdk.kotlin.services.ec2.model.CapacityReservationSpecification
+import aws.sdk.kotlin.services.ec2.model.CapacityReservationTarget
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

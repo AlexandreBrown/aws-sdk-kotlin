@@ -4,6 +4,7 @@ package aws.sdk.kotlin.services.ec2.transform
 
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayAttachment
+import aws.sdk.kotlin.services.ec2.model.TransitGatewayAttachmentAssociation
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayAttachmentResourceType
 import aws.sdk.kotlin.services.ec2.model.TransitGatewayAttachmentState
 import aws.smithy.kotlin.runtime.serde.Deserializer

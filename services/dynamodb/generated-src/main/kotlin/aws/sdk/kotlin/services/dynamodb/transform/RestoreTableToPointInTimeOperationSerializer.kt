@@ -2,7 +2,12 @@
 
 package aws.sdk.kotlin.services.dynamodb.transform
 
+import aws.sdk.kotlin.services.dynamodb.model.BillingMode
+import aws.sdk.kotlin.services.dynamodb.model.GlobalSecondaryIndex
+import aws.sdk.kotlin.services.dynamodb.model.LocalSecondaryIndex
+import aws.sdk.kotlin.services.dynamodb.model.ProvisionedThroughput
 import aws.sdk.kotlin.services.dynamodb.model.RestoreTableToPointInTimeRequest
+import aws.sdk.kotlin.services.dynamodb.model.SseSpecification
 import aws.smithy.kotlin.runtime.client.ExecutionContext
 import aws.smithy.kotlin.runtime.http.HttpBody
 import aws.smithy.kotlin.runtime.http.HttpMethod
@@ -24,6 +29,7 @@ import aws.smithy.kotlin.runtime.serde.json.JsonSerializer
 import aws.smithy.kotlin.runtime.serde.serializeList
 import aws.smithy.kotlin.runtime.serde.serializeMap
 import aws.smithy.kotlin.runtime.serde.serializeStruct
+import aws.smithy.kotlin.runtime.time.Instant
 import aws.smithy.kotlin.runtime.time.TimestampFormat
 
 

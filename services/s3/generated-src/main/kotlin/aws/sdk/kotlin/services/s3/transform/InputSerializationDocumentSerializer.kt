@@ -2,7 +2,11 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.CompressionType
+import aws.sdk.kotlin.services.s3.model.CsvInput
 import aws.sdk.kotlin.services.s3.model.InputSerialization
+import aws.sdk.kotlin.services.s3.model.JsonInput
+import aws.sdk.kotlin.services.s3.model.ParquetInput
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
 import aws.smithy.kotlin.runtime.serde.SerialKind

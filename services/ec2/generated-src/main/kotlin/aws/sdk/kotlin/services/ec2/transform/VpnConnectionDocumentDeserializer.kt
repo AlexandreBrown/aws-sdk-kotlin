@@ -7,6 +7,7 @@ import aws.sdk.kotlin.services.ec2.model.GatewayType
 import aws.sdk.kotlin.services.ec2.model.Tag
 import aws.sdk.kotlin.services.ec2.model.VgwTelemetry
 import aws.sdk.kotlin.services.ec2.model.VpnConnection
+import aws.sdk.kotlin.services.ec2.model.VpnConnectionOptions
 import aws.sdk.kotlin.services.ec2.model.VpnState
 import aws.sdk.kotlin.services.ec2.model.VpnStaticRoute
 import aws.smithy.kotlin.runtime.serde.Deserializer

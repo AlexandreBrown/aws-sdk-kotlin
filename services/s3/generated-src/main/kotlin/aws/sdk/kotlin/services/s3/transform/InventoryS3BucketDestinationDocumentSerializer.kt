@@ -2,6 +2,8 @@
 
 package aws.sdk.kotlin.services.s3.transform
 
+import aws.sdk.kotlin.services.s3.model.InventoryEncryption
+import aws.sdk.kotlin.services.s3.model.InventoryFormat
 import aws.sdk.kotlin.services.s3.model.InventoryS3BucketDestination
 import aws.smithy.kotlin.runtime.serde.SdkFieldDescriptor
 import aws.smithy.kotlin.runtime.serde.SdkObjectDescriptor
